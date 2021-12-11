@@ -29,3 +29,10 @@ namespace Arcaptcha
         }
     }
 }
+
+
+//Usage:
+/*
+           var website = ArcaptchaWebSite.Create("YOUR-SITE-KEY", "YOUR-SECRET-KEY");
+           var isHuman = await  website.ValidateCaptchaAsync("CHALLENGE_ID");
+*/
